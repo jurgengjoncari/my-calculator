@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link href="css/layout.css" rel="stylesheet">
+        <script type="text/javascript" src="js/script.js"></script>
+        <title>Javascript Tutorial - Making a Basic Calculator</title>
+    </head>
+    <body>
+        <form id="form_data">
+            <h3>My Calculator</h3>
+            <input type="text" id="x">
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">x</option>
+                <option value="/">:</option>
+            </select>
+            <input type="text" id="y">
+            <input type="button" value="Calculate" id="btn" onclick="calculate();">
+            <br>
+            <span>Result: </span>
+            <input type="text" id="result">
+        </form>
+    </body>
+</html>
